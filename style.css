@@ -1,0 +1,187 @@
+
+section{
+  display: flex;
+  justify-content: left;
+
+}
+
+
+
+nav {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+    border-top-color: rgb(208, 65, 52);
+    border-top-width: thick ;
+  }
+
+nav li a{
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+nav li{
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+img {
+  border: 1px rgb(52, 191, 191);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit:scale-down;
+    margin-right: 15px;
+    margin-top: 15px;
+   
+}
+
+#left-side{
+  padding-left: 30px;
+  padding-right: 50px;
+  text-align: center;
+  border-right: 0.5px solid rgb(147, 142, 142);  
+  height: 750px;
+  flex-direction: row;
+  
+}
+
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 0.5px solid rgb(208, 65, 52);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+#selected-page{
+  font-weight: bold;
+}
+
+#right-side{
+
+  margin-left: 80px;
+
+}
+
+
+
+#Profile{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: lighter;
+
+}
+
+
+
+
+@media screen and (max-width:900px) {
+  section {
+    display: block;
+    justify-content: center;
+
+}
+.title{
+  text-align: center;
+}
+#left-side{
+	border-bottom: 1px solid lightgray;
+	text-align: center;
+	height: 500px;
+  flex-direction: row;
+  
+
+
+}
+
+
+}
+
+progress {
+  width: 600%;
+}
+
+
+
+#Heading h1{
+  font-weight: normal;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 30px;
+ color: rgb(106, 111, 115);
+}
+
+th {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+
+.tableright{
+  text-align: right;
+  padding-right: 80px;
+  color: rgb(168, 167, 167);
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ExperienceTable {
+  width: 150%;
+}
+  
+
+
+#EducationTable{
+
+  width: 200%;
+}
+
+td:not(:first-child) {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;       
+}
+
+.dashes{
+  list-style-type: "- ";
+  margin-bottom: lem 0;
+}
+
+.dashes li{
+  padding-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.dashes li a{
+  font-weight:lighter;
+}
+
+
+
+a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#resume{
+  text-decoration: none;
+}
+
+#email{
+  text-decoration: none;
+}
